@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import { Avatar } from "./Avatar";
 
 function App() {
   const [photo, setPhoto] = useState({});
@@ -22,7 +23,8 @@ function App() {
 
   return (
     <>
-    
+    {/* pass props to this component */}
+    <Avatar />
     </>
   );
 }
